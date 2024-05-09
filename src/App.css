@@ -1,0 +1,89 @@
+
+.editor-container {
+    width: 600px;
+    min-height:200px;
+    margin: 1.25rem auto;
+    border:1px solid black;
+    margin-top:20px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4aa3a3;
+    padding: 0.3rem;
+    border: 1px solid #1d2f2f;
+    box-shadow: 1px 1px 10px 2px #3a5f5f;
+    font-family: Russo One;
+    font-size: 1rem;
+    color: black;
+}
+
+.icon-name {
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+
+.editor-container.fullscreen {
+    height:100vh;
+    z-index: 9999;
+    background-color: #c0d8d8;
+  }
+  
+  .editor.fullscreen {
+    height: 100vh;
+  }
+
+#editor{
+    width: 100%;
+    min-height: 200px;
+    resize: vertical;
+    outline: none;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 0.875rem;
+    box-shadow: 1px 1px 10px 2px #3a5f5f;
+    background-color: #c0d8d8;
+    border: 1px solid #1d2f2f;
+    border-top: none;
+    margin-bottom: -5px;
+}
+
+.preview-container{
+    width: 800px;
+    margin: 0 auto;
+    min-height: 200px;
+    overflow-wrap: break-word;
+}
+
+#preview {
+    width: 100%;    
+    min-height: 200px;
+    margin-bottom: -5px;
+    outline: none;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 0.875rem;
+    background-color: #c0d8d8;
+    border: 1px solid #1d2f2f;
+    box-shadow: 1px 1px 10px 2px #3a5f5f;
+    border-top: none;
+}
+.editor-container.hidden {
+    display: none;
+  }
+  
+  .preview-container.hidden {
+    display: none;
+  }
+
+  .preview-container.fullscreen {
+    height:100vh;
+    z-index: 9999;
+    background-color: #c0d8d8;
+  }
+  .preview.fullscreen {
+    height: 100vh;
+  }
